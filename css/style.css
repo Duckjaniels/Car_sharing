@@ -50,7 +50,7 @@ span{
     text-transform: uppercase;
 }
 
-ul{
+ul.page-nav-list{
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -310,4 +310,219 @@ h2.page3-header::before{
     opacity: 1;
     display: inline-block;
     margin-bottom: 170px;
+}
+
+section.container div{
+    display: flex;
+    justify-content: center;
+    padding: 0 92px;
+
+}
+div.conatiner{
+    display: flex;
+    justify-content: center;
+
+
+}
+div.content{
+    display: flex;
+    justify-content: center;
+    padding:115px;
+    margin-bottom: 65px;
+}
+.page4-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font: normal normal bold 35px/47px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+h2.page4-header::after{
+    content: "";
+    margin: 0 10px;
+    display: block;
+    box-shadow: 0px 1px 6px rgba(255, 0, 0, 0.3);
+    border-radius: 8px;
+    width: 50px;
+    height: 3px;
+    background: rgba(255, 0, 0, 1);
+}
+h2.page4-header::before{
+    content: "";
+    margin: 0 10px;
+    display: block;
+    box-shadow: 0px 1px 6px rgba(255, 0, 0, 0.3);
+    border-radius: 8px;
+    width: 50px;
+    height: 3px;
+    background: rgba(255, 0, 0, 1);
+}
+
+
+.content img{
+    width: 50%;
+    padding: 8px;
+    height: 316.5px;
+}
+form{
+    width: 50%;
+    padding: 8px;
+    color: #05A081;
+    font-family: Helvetica, Arial, sans-serif;
+}
+input[type=name],
+textarea{
+    width: 100%;
+    height: 38px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: Nunito Sans;
+    color: black;
+    border-radius: 8px;
+    border: 1px solid rgba(209, 209, 209, 1);
+
+
+}
+
+input[type=message],
+textarea{
+    width: 100%;
+    height: 140px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: Nunito Sans;
+    color: black;
+    border-radius: 8px;
+    border: 1px solid rgba(209, 209, 209, 1);
+
+
+}
+
+label{
+    display: inline-block;
+    position: relative;
+    padding-left: 32px;
+    text-align: left;
+    font: 10px Open Sans;
+    color: rgba(178, 178, 178, 1);
+}
+input[type=checkbox]{
+    display: none;
+
+
+}
+input::placeholder{
+    padding-left: 12px;
+    text-align: left;
+    font: normal normal normal 16px/22px Nunito Sans;
+    letter-spacing: 0px;
+    color: rgba(178, 178, 178, 1);
+    opacity: 1;
+}
+textarea::placeholder {
+    text-align: left;
+    padding-left: 12px;
+    font: normal normal normal 16px/22px Nunito Sans;
+    letter-spacing: 0px;
+    color: rgba(178, 178, 178, 1);
+    opacity: 1;
+}
+
+
+form.message button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-top: 20px;
+    padding: 10px 52px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 3px 6px rgba(255, 0, 0, 0.3);
+    border: 1px solid rgba(255, 0, 0, 1);
+    border-radius: 40px;
+    color: rgba(255, 0, 0, 1);
+
+}
+label span{
+    content: "";
+    display: block;
+    left: 0;
+    top: 4px;
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    border: 1px solid rgba(209, 209, 209, 1);
+    border-radius: 8px;
+    opacity: 1;
+
+}
+label input:checked+span{
+    background: url("../images/Icon_Check.svg") no-repeat center/70%;
+}
+
+.footer{
+    height: 233px;
+    background: #28272C 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.page-logo2{
+    margin-bottom: 22px;
+    margin-top: 40px;
+}
+.page-logo2 a{
+    color: #FF0000;
+    font: normal normal bold 25px/34px "Nunito Sans";
+}
+.page-logo2 a span{
+    text-align: left;
+    font: normal normal bold 25px/34px "Nunito Sans";
+    color: #FFFFFF;
+}
+.page-nav-list2 a{
+    text-transform: uppercase;
+    padding-bottom: 19px;
+    text-decoration: none;
+    font: normal normal bold 14px/18px Nunito Sans;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-right: 141px;
+}
+.page-nav-list2 li{
+    padding: 2px;
+}
+.page-nav-list3 li{
+    padding: 2px;
+}
+.cr{
+    text-align: left;
+    font: normal normal 300 12px/16px "Nunito Sans";
+    color: #D1D1D1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.page-nav-list3 a{
+    text-transform: uppercase;
+    margin-bottom: 19px;
+    text-decoration: none;
+    font: normal normal bold 14px/18px Nunito Sans;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-right: 141px;
+}
+
+.footer .container{
+    display: flex;
+    flex-direction: column;
+}
+.lists{
+    display: flex;
+
 }
